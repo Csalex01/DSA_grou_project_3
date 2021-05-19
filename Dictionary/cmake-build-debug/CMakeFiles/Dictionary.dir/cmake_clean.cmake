@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Dictionary.dir/Utils/Utils.c.obj"
+  "CMakeFiles/Dictionary.dir/Word/Word.c.obj"
   "CMakeFiles/Dictionary.dir/main.c.obj"
   "Dictionary.exe"
   "Dictionary.exe.manifest"

@@ -142,6 +142,60 @@ Dictionary/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/build
 .PHONY : Dictionary/fast
 
+Utils/Utils.obj: Utils/Utils.c.obj
+
+.PHONY : Utils/Utils.obj
+
+# target to build an object file
+Utils/Utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Utils/Utils.c.obj
+.PHONY : Utils/Utils.c.obj
+
+Utils/Utils.i: Utils/Utils.c.i
+
+.PHONY : Utils/Utils.i
+
+# target to preprocess a source file
+Utils/Utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Utils/Utils.c.i
+.PHONY : Utils/Utils.c.i
+
+Utils/Utils.s: Utils/Utils.c.s
+
+.PHONY : Utils/Utils.s
+
+# target to generate assembly for a file
+Utils/Utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Utils/Utils.c.s
+.PHONY : Utils/Utils.c.s
+
+Word/Word.obj: Word/Word.c.obj
+
+.PHONY : Word/Word.obj
+
+# target to build an object file
+Word/Word.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Word/Word.c.obj
+.PHONY : Word/Word.c.obj
+
+Word/Word.i: Word/Word.c.i
+
+.PHONY : Word/Word.i
+
+# target to preprocess a source file
+Word/Word.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Word/Word.c.i
+.PHONY : Word/Word.c.i
+
+Word/Word.s: Word/Word.c.s
+
+.PHONY : Word/Word.s
+
+# target to generate assembly for a file
+Word/Word.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Word/Word.c.s
+.PHONY : Word/Word.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Dictionary
+	@echo ... Utils/Utils.obj
+	@echo ... Utils/Utils.i
+	@echo ... Utils/Utils.s
+	@echo ... Word/Word.obj
+	@echo ... Word/Word.i
+	@echo ... Word/Word.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

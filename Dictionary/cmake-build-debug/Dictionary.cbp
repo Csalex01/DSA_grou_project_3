@@ -74,6 +74,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.c">
+			<Option target="Dictionary"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h">
+			<Option target="Dictionary"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.c">
+			<Option target="Dictionary"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h">
+			<Option target="Dictionary"/>
+		</Unit>
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/main.c">
 			<Option target="Dictionary"/>
 		</Unit>
