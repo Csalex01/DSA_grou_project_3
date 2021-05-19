@@ -12,7 +12,8 @@
 #include "../Word/Word.h"
 
 /// Data structures
-Word* WORDS;
+Word** WORDS;
+int WORD_COUNT;
 
 /// Utility functions
 void readDictionary(char* fileName);

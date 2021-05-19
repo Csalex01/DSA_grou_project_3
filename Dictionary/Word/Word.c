@@ -20,7 +20,7 @@ Word* createWord(char* ENG, char* HUN) {
 
 
 void printWord(Word* word) {
-    printf("%s => %s", word->ENG, word->HUN);
+    printf("%s => %s\n", word->ENG, word->HUN);
 }
 
 

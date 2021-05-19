@@ -3,11 +3,14 @@
 #include "Utils/Utils.h"
 
 int main() {
-    Word* word = createWord("Table", "Asztal");
+    WORD_COUNT = 0;
 
-    printWord(word);
+    readDictionary("Dictionary.txt");
 
-    destroyWord(word);
+    printf("%i\n", WORD_COUNT);
+
+    for (int i = 0; i < WORD_COUNT; i++)
+        printWord(WORDS[i]);
 
     return 0;
 }

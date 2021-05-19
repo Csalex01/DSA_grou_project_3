@@ -1,3 +1,4 @@
+92
 accept elfogad
 allow engedelyez
 ask kerdez
