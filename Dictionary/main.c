@@ -1,16 +1,19 @@
-#include <stdio.h>
-
 #include "Utils/Utils.h"
 
 int main() {
+
+    /// Initializing the required variables
     WORD_COUNT = 0;
 
+    LINKED_LIST = NULL;
+
+    /// ----------
+
+    /// Read data from file
     readDictionary("Dictionary.txt");
 
-    printf("%i\n", WORD_COUNT);
-
-    for (int i = 0; i < WORD_COUNT; i++)
-        printWord(WORDS[i]);
+    traverseLinkedList(LINKED_LIST);
 
     return 0;
 }
+

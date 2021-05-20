@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Array/Array.h
+../Word/Word.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
+../Utils/Utils.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.c
+Utils.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
+../Array/Array.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Array/Array.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../Word/Word.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
+../Array/Array.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Array/Array.h
+../LinkedList/LinkedList.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/main.c
+Utils/Utils.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
+

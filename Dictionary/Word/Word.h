@@ -1,7 +1,3 @@
-//
-// Created by csill on 5/19/2021.
-//
-
 #ifndef DICTIONARY_WORD_H
 #define DICTIONARY_WORD_H
 
@@ -17,6 +13,8 @@ typedef struct {
 Word* createWord(char* ENG, char* HUN);
 
 void printWord(Word* word);
+
+void printWords();
 
 void destroyWord(Word* word);
 

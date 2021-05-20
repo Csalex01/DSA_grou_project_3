@@ -1,14 +1,11 @@
-//
-// Created by csill on 5/19/2021.
-//
-
 #include "Word.h"
+#include "../Utils/Utils.h"
 
 Word* createWord(char* ENG, char* HUN) {
     Word* word = (Word*)malloc(sizeof(Word));
 
     if(!word) {
-        printf("Error while allocating memroy for Word!");
+        printf("Error while allocating memory for Word!");
         return NULL;
     }
 
@@ -23,6 +20,12 @@ void printWord(Word* word) {
     printf("%s => %s\n", word->ENG, word->HUN);
 }
 
+void printWords() {
+    for(int i = 0; i < WORD_COUNT; i++) {
+        printWord(WORDS[i]);
+    }
+    printf("\n");
+}
 
 void destroyWord(Word* word) {
     free(word);

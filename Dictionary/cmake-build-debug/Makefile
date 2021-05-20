@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_3\Dictionary
+CMAKE_SOURCE_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_3\Dictionary\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,60 @@ Dictionary: cmake_check_build_system
 Dictionary/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/build
 .PHONY : Dictionary/fast
+
+Array/Array.obj: Array/Array.c.obj
+
+.PHONY : Array/Array.obj
+
+# target to build an object file
+Array/Array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Array/Array.c.obj
+.PHONY : Array/Array.c.obj
+
+Array/Array.i: Array/Array.c.i
+
+.PHONY : Array/Array.i
+
+# target to preprocess a source file
+Array/Array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Array/Array.c.i
+.PHONY : Array/Array.c.i
+
+Array/Array.s: Array/Array.c.s
+
+.PHONY : Array/Array.s
+
+# target to generate assembly for a file
+Array/Array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Array/Array.c.s
+.PHONY : Array/Array.c.s
+
+LinkedList/LinkedList.obj: LinkedList/LinkedList.c.obj
+
+.PHONY : LinkedList/LinkedList.obj
+
+# target to build an object file
+LinkedList/LinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.obj
+.PHONY : LinkedList/LinkedList.c.obj
+
+LinkedList/LinkedList.i: LinkedList/LinkedList.c.i
+
+.PHONY : LinkedList/LinkedList.i
+
+# target to preprocess a source file
+LinkedList/LinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.i
+.PHONY : LinkedList/LinkedList.c.i
+
+LinkedList/LinkedList.s: LinkedList/LinkedList.c.s
+
+.PHONY : LinkedList/LinkedList.s
+
+# target to generate assembly for a file
+LinkedList/LinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.s
+.PHONY : LinkedList/LinkedList.c.s
 
 Utils/Utils.obj: Utils/Utils.c.obj
 
@@ -232,6 +286,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Dictionary
+	@echo ... Array/Array.obj
+	@echo ... Array/Array.i
+	@echo ... Array/Array.s
+	@echo ... LinkedList/LinkedList.obj
+	@echo ... LinkedList/LinkedList.i
+	@echo ... LinkedList/LinkedList.s
 	@echo ... Utils/Utils.obj
 	@echo ... Utils/Utils.i
 	@echo ... Utils/Utils.s

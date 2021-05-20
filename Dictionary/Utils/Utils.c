@@ -1,8 +1,5 @@
-//
-// Created by csill on 5/19/2021.
-//
-
 #include "Utils.h"
+#include "../Array/Array.h"
 
 void readDictionary(char *fileName) {
     FILE *fin = fopen(fileName, "rt");
@@ -26,8 +23,8 @@ void readDictionary(char *fileName) {
         fscanf(fin, "%s", ENG);
         fscanf(fin, "%s", HUN);
 
-        Word *tmp = createWord(ENG, HUN);
-
-        WORDS[i] = tmp;
+        insertIntoArray(createWord(ENG, HUN), i);
+        insertIntoLinkedList(&LINKED_LIST, createWord(ENG, HUN), i);
     }
 }
+
