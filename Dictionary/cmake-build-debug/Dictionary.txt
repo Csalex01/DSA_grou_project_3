@@ -32,7 +32,7 @@ Fly Repul
 Forget Elfelejt
 Give Ad
 Go Megy
-Have van Valamije
+Have Van
 Hear Hall
 Hurt Faj
 Know Tud
@@ -80,8 +80,8 @@ Translate Fordit
 Travel Utazik
 Try Probal
 Turn Fordul
-Turn_on bekapcsol
-Type gepel
+Turn_on Bekapcsol
+Type Gepel
 Understand Megert
 Use Hasznal
 Wait Var
