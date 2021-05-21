@@ -34,7 +34,7 @@ char *lookupLinkedListENG(char *HUN) {
     while (p != NULL && strcmp(p->data->HUN, HUN))
         p = p->next;
 
-    if(p == NULL)
+    if (p == NULL)
         return NULL;
 
     return p->data->ENG;
@@ -48,7 +48,7 @@ char *lookupLinkedListHUN(char *ENG) {
     while (p != NULL && strcmp(p->data->ENG, ENG))
         p = p->next;
 
-    if(p == NULL)
+    if (p == NULL)
         return NULL;
 
     return p->data->HUN;

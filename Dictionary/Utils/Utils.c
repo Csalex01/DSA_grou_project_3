@@ -26,6 +26,7 @@ void readDictionary(char *fileName) {
 
         insertIntoArray(createWord(ENG, HUN), i);
         insertIntoLinkedList(&LINKED_LIST, createWord(ENG, HUN), i);
+        insertIntoBinaryTree(&BST,createWord(ENG, HUN));
     }
 }
 
@@ -44,10 +45,14 @@ void toUpper(char* word) {
 int stringToInt(char* word) {
     int sum = 0;
 
-    toUpper(word);
+    char tmp[30];
 
-    for(int i = 0; i < strlen(word); i++) {
-        int n = ((int)word[i]) - 64;
+    strcpy(tmp, word);
+
+    toUpper(tmp);
+
+    for(int i = 0; i < strlen(tmp); i++) {
+        int n = ((int)tmp[i]) - 64;
         sum += n * n;
     }
 

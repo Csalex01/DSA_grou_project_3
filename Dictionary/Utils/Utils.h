@@ -8,11 +8,13 @@
 #include "../Word/Word.h"
 #include "../Array/Array.h"
 #include "../LinkedList/LinkedList.h"
+#include "../BinarySearchTree/BinarySearchTree.h"
 
 /// Data structures
 
 Word** WORDS;
 ListNode* LINKED_LIST;
+BinarySearchTree* BST;
 
 /// Counters
 
