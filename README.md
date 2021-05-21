@@ -3,7 +3,7 @@
 ## [Project Requirements](https://moodle.ms.sapientia.ro/pluginfile.php/20482/mod_resource/content/3/Projekt3.pdf)
 
 ### Progress
-- Arra (COMPLETE)y
+- Array (COMPLETE)
   - Insert (COMPLETE)
   - Delete (COMPLETE)
   - Search (COMPLETE)
