@@ -13,11 +13,11 @@
 
 - Dynamic Linked List
   - Insert  (COMPLETE)
-  - Delete
-  - Search
+  - Delete (COMPLETE)
+  - Search (COMPLETE)
   - Query (COMPLETE)
-  - Access
-  - Other necessary functions
+  - Access (COMPLETE)
+  - Other necessary functions (COMPLETE)
 
 - Binary Search Tree
   - Insert
