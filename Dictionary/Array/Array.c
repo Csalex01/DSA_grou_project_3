@@ -37,6 +37,7 @@ char* lookupArrayHUN(char* ENG) {
 
 char* lookupArray(char* word) {
     fixString(word);
+
     char* ENG = lookupArrayHUN(word);
     char* HUN = lookupArrayENG(word);
 

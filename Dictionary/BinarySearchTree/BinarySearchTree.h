@@ -19,6 +19,12 @@ struct BinarySearchTree *deleteFromBinarySearchTree(struct BinarySearchTree *Tre
 
 struct BinarySearchTree *minValueBinarySearchTree(struct BinarySearchTree *Tree);
 
+char *lookupBinarySearchTreeENG(struct BinarySearchTree *Tree, char *HUN);
+
+char *lookupBinarySearchTreeHUN(struct BinarySearchTree *Tree, char *ENG);
+
+char *lookupBinarySearchTree(char *word);
+
 void insertIntoBinaryTree(struct BinarySearchTree **Tree, Word *word);
 
 void traverseBinarySearchTree(struct BinarySearchTree *Node);

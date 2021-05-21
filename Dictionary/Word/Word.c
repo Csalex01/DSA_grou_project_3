@@ -17,7 +17,7 @@ Word* createWord(char* ENG, char* HUN) {
 
 
 void printWord(Word* word) {
-    printf("%s => %s\n", word->ENG, word->HUN);
+    printf("%s (%i) => %s (%i)\n", word->ENG, stringToInt(word->ENG), word->HUN, stringToInt(word->HUN));
 }
 
 void destroyWord(Word* word) {

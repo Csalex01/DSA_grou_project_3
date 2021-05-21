@@ -57,6 +57,53 @@ struct BinarySearchTree *minValueBinarySearchTree(struct BinarySearchTree *Tree)
     return current;
 }
 
+char *lookupBinarySearchTreeENG(struct BinarySearchTree *Tree, char *HUN) {
+    if (!Tree)
+        return NULL;
+
+    fixString(HUN);
+
+    if (!strcmp(Tree->data->HUN, HUN))
+        return Tree->data->ENG;
+
+    if (Tree->left)
+        return lookupBinarySearchTreeENG(Tree->left, HUN);
+
+    if (Tree->right)
+        return lookupBinarySearchTreeENG(Tree->right, HUN);
+}
+
+char *lookupBinarySearchTreeHUN(struct BinarySearchTree *Tree, char *ENG) {
+    if (!Tree)
+        return NULL;
+
+    fixString(ENG);
+
+    if (!strcmp(Tree->data->ENG, ENG))
+        return Tree->data->HUN;
+
+    if (Tree->left)
+        return lookupBinarySearchTreeHUN(Tree->left, ENG);
+
+    if (Tree->right)
+        return lookupBinarySearchTreeHUN(Tree->right, ENG);
+}
+
+char *lookupBinarySearchTree(char *word) {
+    fixString(word);
+
+    char* ENG = lookupBinarySearchTreeENG(BST, word);
+    char* HUN = lookupBinarySearchTreeHUN(BST, word);
+
+    if (HUN)
+        return HUN;
+
+    if (ENG)
+        return ENG;
+
+    return NULL;
+}
+
 void insertIntoBinaryTree(struct BinarySearchTree **Tree, Word *word) {
     if ((*Tree) == NULL) {
         *Tree = createBinarySearchTree(word);

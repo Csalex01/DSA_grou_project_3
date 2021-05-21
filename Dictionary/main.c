@@ -13,14 +13,12 @@ int main() {
     /// Read data from file
     readDictionary("Dictionary.txt");
 
-    Word* word = createWord("Break", "Tor");
-
     traverseBinarySearchTree(BST);
     printf("\n");
 
-    deleteFromBinarySearchTree(BST, word);
+    char word[30] = "break";
 
-    traverseBinarySearchTree(BST);
+    printf("%s ", lookupBinarySearchTree(word));
 
     return 0;
 }

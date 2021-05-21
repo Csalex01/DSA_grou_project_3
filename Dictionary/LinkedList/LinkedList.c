@@ -58,7 +58,6 @@ char *lookupLinkedList(char *word) {
     fixString(word);
 
     char *ENG = lookupLinkedListENG(word);
-
     char *HUN = lookupLinkedListHUN(word);
 
     if (HUN)

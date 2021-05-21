@@ -22,7 +22,7 @@
 - Binary Search Tree
   - Insert (COMPLETE)
   - Delete (COMPLETE)
-  - Search
+  - Search (COMPLETE)
   - Query (COMPLETE)
   - Access (COMPLETE)
   - Other necessary functions
