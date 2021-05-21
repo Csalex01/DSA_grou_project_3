@@ -10,8 +10,20 @@ typedef struct ListNode {
 
 struct ListNode *createListNode();
 
-void insertIntoLinkedList(ListNode** linkedList, Word *data, int index);
+struct ListNode *searchInLinkedList(char *word);
 
-void traverseLinkedList(ListNode* linkedList);
+char* lookupLinkedListENG(char *HUN);
+
+char* lookupLinkedListHUN(char *ENG);
+
+char *lookupLinkedList(char *word);
+
+void insertIntoLinkedList(ListNode **linkedList, Word *data, int index);
+
+void traverseLinkedList(ListNode *linkedList);
+
+void deleteFromLinkedList(char *word);
+
+void destroyLinkedList(ListNode *linkedList);
 
 #endif //DICTIONARY_LINKEDLIST_H

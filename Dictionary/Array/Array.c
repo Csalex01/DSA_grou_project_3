@@ -19,7 +19,7 @@ void deleteFromArray(int index) {
     }
 }
 
-char* lookupENG(char* HUN) {
+char* lookupArrayENG(char* HUN) {
     for(int i = 0; i < WORD_COUNT; i++)
         if(!strcmp(WORDS[i]->HUN, HUN))
             return WORDS[i]->ENG;
@@ -27,7 +27,7 @@ char* lookupENG(char* HUN) {
     return NULL;
 }
 
-char* lookupHUN(char* ENG) {
+char* lookupArrayHUN(char* ENG) {
     for(int i = 0; i < WORD_COUNT; i++)
         if(!strcmp(WORDS[i]->ENG, ENG))
             return WORDS[i]->HUN;
@@ -35,10 +35,10 @@ char* lookupHUN(char* ENG) {
     return NULL;
 }
 
-char* lookup(char* word) {
+char* lookupArray(char* word) {
     fixString(word);
-    char* ENG = lookupHUN(word);
-    char* HUN = lookupENG(word);
+    char* ENG = lookupArrayHUN(word);
+    char* HUN = lookupArrayENG(word);
 
     if(ENG)
         return ENG;

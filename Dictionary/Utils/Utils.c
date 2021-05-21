@@ -12,9 +12,10 @@ void readDictionary(char *fileName) {
     int n;
     fscanf(fin, "%i", &n);
 
-    WORD_COUNT = n;
+    /// TODO Change WORD_COUNT back to n!
+    WORD_COUNT = 10;
 
-    WORDS = (Word**)malloc(n * sizeof(Word*));
+    WORDS = (Word**)malloc(WORD_COUNT * sizeof(Word*));
 
     char HUN[30];
     char ENG[30];
@@ -28,3 +29,27 @@ void readDictionary(char *fileName) {
     }
 }
 
+void toLower(char* word) {
+    for(int i = 0; i < strlen(word); i++)
+        if(word[i] >= 'A' && word[i] <= 'Z')
+            word[i] = (char)(word[i] + 32);
+}
+
+void toUpper(char* word) {
+    for(int i = 0; i < strlen(word); i++)
+        if(word[i] >= 'a' && word[i] <= 'z')
+            word[i] -= 32;
+}
+
+int stringToInt(char* word) {
+    int sum = 0;
+
+    toUpper(word);
+
+    for(int i = 0; i < strlen(word); i++) {
+        int n = ((int)word[i]) - 64;
+        sum += n * n;
+    }
+
+    return sum;
+}

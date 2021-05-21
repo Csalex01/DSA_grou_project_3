@@ -9,11 +9,11 @@
 
 #include "../Word/Word.h"
 
-char* lookupENG(char* HUN);
+char* lookupArrayENG(char* HUN);
 
-char* lookupHUN(char* ENG);
+char* lookupArrayHUN(char* ENG);
 
-char* lookup(char* word);
+char* lookupArray(char* word);
 
 void insertIntoArray(Word* word, int index);
 

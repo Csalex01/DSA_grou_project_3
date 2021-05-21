@@ -10,16 +10,24 @@
 #include "../LinkedList/LinkedList.h"
 
 /// Data structures
+
 Word** WORDS;
 ListNode* LINKED_LIST;
 
 /// Counters
+
 int WORD_COUNT;
 
 /// Utility functions
+
+int stringToInt(char* word);
+
 void readDictionary(char* fileName);
 
-/// Other functions
+void toLower(char* word);
+
+void toUpper(char* word);
+
 void fixString(char* string);
 
 
