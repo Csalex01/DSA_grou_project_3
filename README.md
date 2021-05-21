@@ -20,11 +20,11 @@
   - Other necessary functions (COMPLETE)
 
 - Binary Search Tree
-  - Insert
-  - Delete
+  - Insert (COMPLETE)
+  - Delete (COMPLETE)
   - Search
-  - Query
-  - Access
+  - Query (COMPLETE)
+  - Access (COMPLETE)
   - Other necessary functions
 
 - Heap
