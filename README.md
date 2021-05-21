@@ -3,7 +3,7 @@
 ## [Project Requirements](https://moodle.ms.sapientia.ro/pluginfile.php/20482/mod_resource/content/3/Projekt3.pdf)
 
 ### Progress
-- Array
+- Arra (COMPLETE)y
   - Insert (COMPLETE)
   - Delete (COMPLETE)
   - Search (COMPLETE)
@@ -11,7 +11,7 @@
   - Access (COMPLETE)
   - Other necessary functions  (COMPLETE)
 
-- Dynamic Linked List
+- Dynamic Linked List (COMPLETE)
   - Insert  (COMPLETE)
   - Delete (COMPLETE)
   - Search (COMPLETE)
@@ -19,7 +19,7 @@
   - Access (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Binary Search Tree
+- Binary Search Tree (COMPLETE)
   - Insert (COMPLETE)
   - Delete (COMPLETE)
   - Search (COMPLETE)
