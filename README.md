@@ -27,7 +27,7 @@
   - Access (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap
+- Heap (WORK IN PROGRESS)
   - Insert
   - Delete
   - Search

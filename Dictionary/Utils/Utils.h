@@ -9,12 +9,14 @@
 #include "../Array/Array.h"
 #include "../LinkedList/LinkedList.h"
 #include "../BinarySearchTree/BinarySearchTree.h"
+#include "../Heap/Heap.h"
 
 /// Data structures
 
 Word** WORDS;
 ListNode* LINKED_LIST;
 BinarySearchTree* BST;
+Heap* HEAP;
 
 /// Counters
 

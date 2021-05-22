@@ -196,6 +196,33 @@ BinarySearchTree/BinarySearchTree.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/BinarySearchTree/BinarySearchTree.c.s
 .PHONY : BinarySearchTree/BinarySearchTree.c.s
 
+Heap/Heap.obj: Heap/Heap.c.obj
+
+.PHONY : Heap/Heap.obj
+
+# target to build an object file
+Heap/Heap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Heap/Heap.c.obj
+.PHONY : Heap/Heap.c.obj
+
+Heap/Heap.i: Heap/Heap.c.i
+
+.PHONY : Heap/Heap.i
+
+# target to preprocess a source file
+Heap/Heap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Heap/Heap.c.i
+.PHONY : Heap/Heap.c.i
+
+Heap/Heap.s: Heap/Heap.c.s
+
+.PHONY : Heap/Heap.s
+
+# target to generate assembly for a file
+Heap/Heap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Heap/Heap.c.s
+.PHONY : Heap/Heap.c.s
+
 LinkedList/LinkedList.obj: LinkedList/LinkedList.c.obj
 
 .PHONY : LinkedList/LinkedList.obj
@@ -319,6 +346,9 @@ help:
 	@echo ... BinarySearchTree/BinarySearchTree.obj
 	@echo ... BinarySearchTree/BinarySearchTree.i
 	@echo ... BinarySearchTree/BinarySearchTree.s
+	@echo ... Heap/Heap.obj
+	@echo ... Heap/Heap.i
+	@echo ... Heap/Heap.s
 	@echo ... LinkedList/LinkedList.obj
 	@echo ... LinkedList/LinkedList.i
 	@echo ... LinkedList/LinkedList.s

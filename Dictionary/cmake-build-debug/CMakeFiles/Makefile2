@@ -93,12 +93,12 @@ clean: CMakeFiles/Dictionary.dir/clean
 CMakeFiles/Dictionary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target Dictionary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target Dictionary"
 .PHONY : CMakeFiles/Dictionary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Dictionary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Dictionary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_3\Dictionary\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Dictionary.dir/rule

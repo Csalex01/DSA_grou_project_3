@@ -8,17 +8,15 @@ int main() {
     WORDS = NULL;
     LINKED_LIST = NULL;
     BST = NULL;
+    HEAP = NULL;
     /// ----------
 
     /// Read data from file
     readDictionary("Dictionary.txt");
 
-    traverseBinarySearchTree(BST);
-    printf("\n");
+    struct Heap* heap = createHeap(10);
 
-    char word[30] = "break";
 
-    printf("%s ", lookupBinarySearchTree(word));
 
     return 0;
 }
