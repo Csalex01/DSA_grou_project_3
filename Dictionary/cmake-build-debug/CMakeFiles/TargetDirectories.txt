@@ -1,3 +1,0 @@
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/cmake-build-debug/CMakeFiles/Dictionary.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/cmake-build-debug/CMakeFiles/edit_cache.dir
