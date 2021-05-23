@@ -86,6 +86,12 @@
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.h">
 			<Option target="Dictionary"/>
 		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/HashTable/HashTable.c">
+			<Option target="Dictionary"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/HashTable/HashTable.h">
+			<Option target="Dictionary"/>
+		</Unit>
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Heap/Heap.c">
 			<Option target="Dictionary"/>
 		</Unit>

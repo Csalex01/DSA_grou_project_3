@@ -196,6 +196,33 @@ BinarySearchTree/BinarySearchTree.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/BinarySearchTree/BinarySearchTree.c.s
 .PHONY : BinarySearchTree/BinarySearchTree.c.s
 
+HashTable/HashTable.obj: HashTable/HashTable.c.obj
+
+.PHONY : HashTable/HashTable.obj
+
+# target to build an object file
+HashTable/HashTable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/HashTable/HashTable.c.obj
+.PHONY : HashTable/HashTable.c.obj
+
+HashTable/HashTable.i: HashTable/HashTable.c.i
+
+.PHONY : HashTable/HashTable.i
+
+# target to preprocess a source file
+HashTable/HashTable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/HashTable/HashTable.c.i
+.PHONY : HashTable/HashTable.c.i
+
+HashTable/HashTable.s: HashTable/HashTable.c.s
+
+.PHONY : HashTable/HashTable.s
+
+# target to generate assembly for a file
+HashTable/HashTable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/HashTable/HashTable.c.s
+.PHONY : HashTable/HashTable.c.s
+
 Heap/Heap.obj: Heap/Heap.c.obj
 
 .PHONY : Heap/Heap.obj
@@ -346,6 +373,9 @@ help:
 	@echo ... BinarySearchTree/BinarySearchTree.obj
 	@echo ... BinarySearchTree/BinarySearchTree.i
 	@echo ... BinarySearchTree/BinarySearchTree.s
+	@echo ... HashTable/HashTable.obj
+	@echo ... HashTable/HashTable.i
+	@echo ... HashTable/HashTable.s
 	@echo ... Heap/Heap.obj
 	@echo ... Heap/Heap.i
 	@echo ... Heap/Heap.s

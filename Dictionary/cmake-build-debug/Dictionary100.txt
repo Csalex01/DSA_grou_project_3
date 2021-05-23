@@ -1,4 +1,4 @@
-92
+100
 Accept Elfogad
 Allow Engedelyez
 Ask Kerdez
@@ -6,24 +6,29 @@ Believe Hisz
 Borrow Kolcsonker
 Break Tor
 Bring Hoz
+Bring Hoz
 Buy Vasarol
 Can Kepes
 Cancel Ervenytelenit
 Change Valtozik
 Clean Tisztit
+Close Becsuk
 Comb Fesul
 Complain Panaszkodik
 Cough Kohog
 Count Szamol
 Cut Vag
 Dance Tancol
+Do Tesz
 Draw Rajzol
 Drink Iszik
 Drive Vezet
 Eat Eszik
+Expected Remelt
 Explain Magyaraz
 Fall Esik
 Fill Tolt
+Final Utolso
 Find Talal
 Finish Befejez
 Fit Megfelel
@@ -35,6 +40,7 @@ Go Megy
 Have Van
 Hear Hall
 Hurt Faj
+Initial    Kezdeti
 Know Tud
 Learn Tanul
 Leave Hagy
@@ -42,13 +48,14 @@ Listen Hallgat
 Live El
 Look Nez
 Lose Veszit
-Do Tesz
+Major Jelentosebb
+Minor Jelentektelen
 Need Igenyel
 Open Nyit
-Close Becsuk
 Organise Szervez
 Pay Fizet
 Play Jatszik
+Previous Elozo
 Pull Huz
 Push Nyom
 Put Tesz
@@ -83,6 +90,7 @@ Turn Fordul
 Turn_on Bekapcsol
 Type Gepel
 Understand Megert
+Unexpected Varatlan
 Use Hasznal
 Wait Var
 Wake_Up Felebred

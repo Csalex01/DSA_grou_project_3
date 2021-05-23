@@ -24,21 +24,19 @@
   - Delete (COMPLETE)
   - Search (COMPLETE)
   - Query (COMPLETE)
-  - Access (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap (WORK IN PROGRESS)
+- Heap (Skipped) 
   - Insert
   - Delete
   - Search
   - Query
-  - Access
   - Other necessary functions
 
-- Hash Table
-  - Insert
-  - Delete
-  - Search
-  - Query
-  - Access
+- Hash Table (WORK IN PROGRESS)
+  - Inser (COMPLETE) 
+  - Delete (COMPLETE) 
+  - Search (COMPLETE)
+  - Query (COMPELTE)
+  - Access (COMPLETE)
   - Other necessary functions

@@ -4,33 +4,33 @@ void insertIntoArray(Word* word, int index) {
     if(index < 0 || index >= WORD_COUNT)
         return;
 
-    WORDS[index] = word;
+    ARRAY[index] = word;
 }
 
 void deleteFromArray(int index) {
     if(WORD_COUNT <= 0)
         return;
 
-    destroyWord(WORDS[index]);
+    destroyWord(ARRAY[index]);
     WORD_COUNT--;
 
     for(int i = index; i < WORD_COUNT; i++) {
-        WORDS[i] = WORDS[i + 1];
+        ARRAY[i] = ARRAY[i + 1];
     }
 }
 
 char* lookupArrayENG(char* HUN) {
     for(int i = 0; i < WORD_COUNT; i++)
-        if(!strcmp(WORDS[i]->HUN, HUN))
-            return WORDS[i]->ENG;
+        if(!strcmp(ARRAY[i]->HUN, HUN))
+            return ARRAY[i]->ENG;
 
     return NULL;
 }
 
 char* lookupArrayHUN(char* ENG) {
     for(int i = 0; i < WORD_COUNT; i++)
-        if(!strcmp(WORDS[i]->ENG, ENG))
-            return WORDS[i]->HUN;
+        if(!strcmp(ARRAY[i]->ENG, ENG))
+            return ARRAY[i]->HUN;
 
     return NULL;
 }

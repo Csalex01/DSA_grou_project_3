@@ -5,16 +5,19 @@ int main() {
     /// Initializing the required variables
     WORD_COUNT = 0;
 
-    WORDS = NULL;
+    ARRAY = NULL;
+    HASH_TABLE = NULL;
     LINKED_LIST = NULL;
     BST = NULL;
     HEAP = NULL;
     /// ----------
 
     /// Read data from file
-    readDictionary("Dictionary200.txt");
+    readDictionary("Dictionary300.txt");
 
-    printWords();
+    printf("---------------\nWord count: %i\n---------------\n", WORD_COUNT);
+
+    printHashTable();
 
     return 0;
 }

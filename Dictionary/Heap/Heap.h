@@ -11,7 +11,6 @@ typedef struct Heap {
     Word** data;
     int size;
     int maxSize;
-
 } Heap;
 
 struct Heap* createHeap(int size);

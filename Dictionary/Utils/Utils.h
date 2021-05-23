@@ -10,10 +10,12 @@
 #include "../LinkedList/LinkedList.h"
 #include "../BinarySearchTree/BinarySearchTree.h"
 #include "../Heap/Heap.h"
+#include "../HashTable/HashTable.h"
 
 /// Data structures
 
-Word** WORDS;
+Word** ARRAY;
+Word** HASH_TABLE;
 ListNode* LINKED_LIST;
 BinarySearchTree* BST;
 Heap* HEAP;
