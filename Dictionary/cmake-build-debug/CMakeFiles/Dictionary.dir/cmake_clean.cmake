@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Dictionary.dir/Array/Array.c.obj"
+  "CMakeFiles/Dictionary.dir/BinarySearchTree/BinarySearchTree.c.obj"
+  "CMakeFiles/Dictionary.dir/Heap/Heap.c.obj"
+  "CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.obj"
   "CMakeFiles/Dictionary.dir/Utils/Utils.c.obj"
   "CMakeFiles/Dictionary.dir/Word/Word.c.obj"
   "CMakeFiles/Dictionary.dir/main.c.obj"

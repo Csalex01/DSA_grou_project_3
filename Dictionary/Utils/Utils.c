@@ -1,8 +1,5 @@
-//
-// Created by csill on 5/19/2021.
-//
-
 #include "Utils.h"
+#include "../Array/Array.h"
 
 void readDictionary(char *fileName) {
     FILE *fin = fopen(fileName, "rt");
@@ -15,9 +12,10 @@ void readDictionary(char *fileName) {
     int n;
     fscanf(fin, "%i", &n);
 
-    WORD_COUNT = n;
+    /// TODO Change WORD_COUNT back to n!
+    WORD_COUNT = 10;
 
-    WORDS = (Word**)malloc(n * sizeof(Word*));
+    WORDS = (Word**)malloc(WORD_COUNT * sizeof(Word*));
 
     char HUN[30];
     char ENG[30];
@@ -26,8 +24,37 @@ void readDictionary(char *fileName) {
         fscanf(fin, "%s", ENG);
         fscanf(fin, "%s", HUN);
 
-        Word *tmp = createWord(ENG, HUN);
-
-        WORDS[i] = tmp;
+        insertIntoArray(createWord(ENG, HUN), i);
+        insertIntoLinkedList(&LINKED_LIST, createWord(ENG, HUN), i);
+        insertIntoBinaryTree(&BST,createWord(ENG, HUN));
     }
+}
+
+void toLower(char* word) {
+    for(int i = 0; i < strlen(word); i++)
+        if(word[i] >= 'A' && word[i] <= 'Z')
+            word[i] = (char)(word[i] + 32);
+}
+
+void toUpper(char* word) {
+    for(int i = 0; i < strlen(word); i++)
+        if(word[i] >= 'a' && word[i] <= 'z')
+            word[i] -= 32;
+}
+
+int stringToInt(char* word) {
+    int sum = 0;
+
+    char tmp[30];
+
+    strcpy(tmp, word);
+
+    toUpper(tmp);
+
+    for(int i = 0; i < strlen(tmp); i++) {
+        int n = ((int)tmp[i]) - 64;
+        sum += n * n;
+    }
+
+    return sum;
 }

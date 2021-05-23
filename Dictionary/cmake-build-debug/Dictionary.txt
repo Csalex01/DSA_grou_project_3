@@ -8,7 +8,7 @@ Break Tor
 Bring Hoz
 Buy Vasarol
 Can Kepes
-Cancel Ervenytelenít
+Cancel Ervenytelenit
 Change Valtozik
 Clean Tisztit
 Comb Fesul

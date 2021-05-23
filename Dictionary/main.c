@@ -1,16 +1,22 @@
-#include <stdio.h>
-
 #include "Utils/Utils.h"
 
 int main() {
+
+    /// Initializing the required variables
     WORD_COUNT = 0;
 
+    WORDS = NULL;
+    LINKED_LIST = NULL;
+    BST = NULL;
+    HEAP = NULL;
+    /// ----------
+
+    /// Read data from file
     readDictionary("Dictionary.txt");
 
-    printf("%i\n", WORD_COUNT);
+    struct Heap* heap = createHeap(10);
 
-    for (int i = 0; i < WORD_COUNT; i++)
-        printWord(WORDS[i]);
+
 
     return 0;
 }

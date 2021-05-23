@@ -3,7 +3,7 @@
 ## [Project Requirements](https://moodle.ms.sapientia.ro/pluginfile.php/20482/mod_resource/content/3/Projekt3.pdf)
 
 ### Progress
-- Array (COMPLETE)
+- Arra (COMPLETE)y
   - Insert (COMPLETE)
   - Delete (COMPLETE)
   - Search (COMPLETE)
@@ -27,7 +27,7 @@
   - Access (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap (WORK IN PROGRESS)
+- Heap
   - Insert
   - Delete
   - Search
