@@ -18,7 +18,6 @@ Word* createWord(char* ENG, char* HUN) {
     return word;
 }
 
-
 void printWord(Word* word) {
     printf("%s => %s\n", word->ENG, word->HUN);
 }
