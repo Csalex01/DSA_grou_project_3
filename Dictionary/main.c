@@ -12,7 +12,8 @@ int main() {
     /// ----------
 
     /// Read data from file
-    readDictionary("Dictionary.txt");
+    readDictionary("Dictionary200.txt");
+    printWords();
 
     struct Heap* heap = createHeap(10);
 

@@ -6,37 +6,69 @@
 
 #IncludeRegexTransform: 
 
-
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Array/Array.h
-../Word/Word.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
-
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Array/Array.c
 ../Utils/Utils.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
-../Utils/Utils.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
-
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
-stdio.h
--
-stdlib.h
--
-string.h
--
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Array/Array.h
 ../Word/Word.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.c
+../Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.h
+../Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Heap/Heap.c
+Heap.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Heap/Heap.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Heap/Heap.h
+../Word/Word.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/LinkedList/LinkedList.c
+../Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
+../Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.c
+Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
 ../Array/Array.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Array/Array.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Array/Array.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../Word/Word.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.h
+../Array/Array.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Array/Array.h
 ../LinkedList/LinkedList.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/LinkedList/LinkedList.h
 ../BinarySearchTree/BinarySearchTree.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/BinarySearchTree/BinarySearchTree.h
+../Heap/Heap.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Heap/Heap.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Word/Word.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.c
+Word.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.h
+../Utils/Utils.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
 
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Word/Word.h
 stdlib.h
 -
 stdio.h
@@ -44,9 +76,7 @@ stdio.h
 string.h
 -
 
-
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/main.c
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/main.c
 Utils/Utils.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_3/Dictionary/Utils/Utils.h
-
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_3/Dictionary/Utils/Utils.h
 
