@@ -36,9 +36,9 @@
   - Other necessary functions
 
 - Hash Table
-  - Insert
+  - Insert(COMPLETE)
   - Delete
   - Search
   - Query
   - Access
-  - Other necessary functions
+  - Other necessary functions(COMPLETE)
