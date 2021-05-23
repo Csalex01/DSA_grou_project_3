@@ -20,6 +20,11 @@ void printWord(Word* word) {
     printf("%s (%i) => %s (%i)\n", word->ENG, stringToInt(word->ENG), word->HUN, stringToInt(word->HUN));
 }
 
+void printWords() {
+    for(int i = 0; i < WORD_COUNT; i++)
+        printWord(WORDS[i]);
+}
+
 void destroyWord(Word* word) {
     free(word);
     word = NULL;

@@ -14,5 +14,7 @@ int main() {
     /// Read data from file
     readDictionary("Dictionary200.txt");
 
+    printWords();
+
     return 0;
 }
