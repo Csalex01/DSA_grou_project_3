@@ -26,17 +26,17 @@
   - Query (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap 
+- Heap (INCOMPLETE)
   - Insert (COMPLETE)
   - Delete (INCOMPLETE)
   - Search (INCOMPLETE)
   - Query (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Hash Table (WORK IN PROGRESS)
+- Hash Table (COMPLETED)
   - Inser (COMPLETE) 
   - Delete (COMPLETE) 
   - Search (COMPLETE)
   - Query (COMPELTE)
   - Access (COMPLETE)
-  - Other necessary functions
+  - Other necessary functions(What a .....?)
