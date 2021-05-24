@@ -33,10 +33,10 @@
   - Query (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Hash Table (WORK IN PROGRESS)
-  - Insert (COMPLETE) 
+- Hash Table (COMPLETED)
+  - Inser (COMPLETE) 
   - Delete (COMPLETE) 
   - Search (COMPLETE)
   - Query (COMPELTE)
   - Access (COMPLETE)
-  - Other necessary functions (COMPLETE)
+  - Other necessary functions
