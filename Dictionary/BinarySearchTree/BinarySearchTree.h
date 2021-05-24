@@ -1,7 +1,3 @@
-//
-// Created by csill on 5/21/2021.
-//
-
 #ifndef DICTIONARY_BINARYSEARCHTREE_H
 #define DICTIONARY_BINARYSEARCHTREE_H
 

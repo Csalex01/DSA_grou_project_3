@@ -277,6 +277,33 @@ LinkedList/LinkedList.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.s
 .PHONY : LinkedList/LinkedList.c.s
 
+Menu/Menu.obj: Menu/Menu.c.obj
+
+.PHONY : Menu/Menu.obj
+
+# target to build an object file
+Menu/Menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Menu/Menu.c.obj
+.PHONY : Menu/Menu.c.obj
+
+Menu/Menu.i: Menu/Menu.c.i
+
+.PHONY : Menu/Menu.i
+
+# target to preprocess a source file
+Menu/Menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Menu/Menu.c.i
+.PHONY : Menu/Menu.c.i
+
+Menu/Menu.s: Menu/Menu.c.s
+
+.PHONY : Menu/Menu.s
+
+# target to generate assembly for a file
+Menu/Menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dictionary.dir\build.make CMakeFiles/Dictionary.dir/Menu/Menu.c.s
+.PHONY : Menu/Menu.c.s
+
 Utils/Utils.obj: Utils/Utils.c.obj
 
 .PHONY : Utils/Utils.obj
@@ -382,6 +409,9 @@ help:
 	@echo ... LinkedList/LinkedList.obj
 	@echo ... LinkedList/LinkedList.i
 	@echo ... LinkedList/LinkedList.s
+	@echo ... Menu/Menu.obj
+	@echo ... Menu/Menu.i
+	@echo ... Menu/Menu.s
 	@echo ... Utils/Utils.obj
 	@echo ... Utils/Utils.i
 	@echo ... Utils/Utils.s

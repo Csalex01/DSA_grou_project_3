@@ -90,10 +90,10 @@ void heapSort() {
     for (int i = HEAP->size / 2 - 1; i >= 0; i--)
         down(i);
 
-//    for(int i = 0; i < HEAP->size; i++) {
-//        deleteMaxFromHeap();
-//        down(1);
-//    }
+    for(int i = 0; i < HEAP->size; i++) {
+        deleteMaxFromHeap();
+        down(1);
+    }
 }
 
 void printHeap() {

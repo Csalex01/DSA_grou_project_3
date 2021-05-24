@@ -1,5 +1,4 @@
 #include "Utils.h"
-#include "../Array/Array.h"
 
 void readDictionary(char *fileName) {
     FILE *fin = fopen(fileName, "rt");
@@ -13,7 +12,7 @@ void readDictionary(char *fileName) {
     fscanf(fin, "%i", &n);
 
     /// TODO Change WORD_COUNT back to n!
-    WORD_COUNT = 20;
+    WORD_COUNT = n;
 
     ARRAY = (Word **) malloc(WORD_COUNT * sizeof(Word *));
     HASH_TABLE = (Word **) malloc(WORD_COUNT * sizeof(Word *));

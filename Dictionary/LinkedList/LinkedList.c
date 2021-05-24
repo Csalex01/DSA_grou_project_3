@@ -19,7 +19,10 @@ struct ListNode *searchInLinkedList(char *word) {
 
     struct ListNode *p = LINKED_LIST;
 
-    while (p != NULL && !(!strcmp(p->data->ENG, word) || !strcmp(p->data->HUN, word)))
+    while (p != NULL &&
+           !(!strcmp(p->data->ENG, word) ||
+             !strcmp(p->data->HUN, word)))
+
         p = p->next;
 
 

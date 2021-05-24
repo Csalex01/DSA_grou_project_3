@@ -1,4 +1,5 @@
 #include "Utils/Utils.h"
+#include "Menu/Menu.h"
 
 int main() {
 
@@ -15,14 +16,7 @@ int main() {
     /// Read data from file
     readDictionary("Dictionary300.txt");
 
-    printf("---------------\nWord count: %i\n---------------\n", WORD_COUNT);
-
-    printHeap();
-    printf("\n");
-
-    heapSort();
-
-    printHeap();
+    activateMenu();
 
     return 0;
 }
