@@ -26,7 +26,7 @@
   - Query (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap 
+- Heap (INCOMPLETE)
   - Insert (COMPLETE)
   - Delete (INCOMPLETE)
   - Search (INCOMPLETE)
