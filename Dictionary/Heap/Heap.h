@@ -1,18 +1,26 @@
-//
-// Created by csill on 5/22/2021.
-//
-
 #ifndef DICTIONARY_HEAP_H
 #define DICTIONARY_HEAP_H
 
-#include "../Word/Word.h"
+#include "../Utils/Utils.h"
 
 typedef struct Heap {
-    Word** data;
+    Word **data;
     int size;
     int maxSize;
 } Heap;
 
-struct Heap* createHeap(int size);
+struct Heap *createHeap(int size);
+
+Word* deleteMaxFromHeap();
+
+void insertIntoHeap(Word *word);
+
+void up(int i);
+
+void down(int i);
+
+void heapSort();
+
+void printHeap();
 
 #endif //DICTIONARY_HEAP_H

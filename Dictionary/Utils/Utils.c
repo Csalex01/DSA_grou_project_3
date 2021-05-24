@@ -17,6 +17,7 @@ void readDictionary(char *fileName) {
 
     ARRAY = (Word **) malloc(WORD_COUNT * sizeof(Word *));
     HASH_TABLE = (Word **) malloc(WORD_COUNT * sizeof(Word *));
+    HEAP = createHeap(n);
 
     char HUN[30];
     char ENG[30];
@@ -33,6 +34,7 @@ void readDictionary(char *fileName) {
         insertIntoLinkedList(&LINKED_LIST, createWord(ENG, HUN), i);
         insertIntoBinaryTree(&BST, createWord(ENG, HUN));
         insertIntoHashTable(createWord(ENG, HUN));
+        insertIntoHeap(createWord(ENG, HUN));
     }
 }
 

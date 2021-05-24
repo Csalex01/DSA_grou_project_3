@@ -26,12 +26,12 @@
   - Query (COMPLETE)
   - Other necessary functions (COMPLETE)
 
-- Heap (Skipped) 
-  - Insert
-  - Delete
-  - Search
-  - Query
-  - Other necessary functions
+- Heap 
+  - Insert (COMPLETE)
+  - Delete (INCOMPLETE)
+  - Search (INCOMPLETE)
+  - Query (COMPLETE)
+  - Other necessary functions (COMPLETE)
 
 - Hash Table (WORK IN PROGRESS)
   - Inser (COMPLETE) 

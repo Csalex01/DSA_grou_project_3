@@ -17,7 +17,12 @@ int main() {
 
     printf("---------------\nWord count: %i\n---------------\n", WORD_COUNT);
 
-    printHashTable();
+    printHeap();
+    printf("\n");
+
+    heapSort();
+
+    printHeap();
 
     return 0;
 }

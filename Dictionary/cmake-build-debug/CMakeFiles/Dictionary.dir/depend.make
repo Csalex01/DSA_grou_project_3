@@ -28,8 +28,13 @@ CMakeFiles/Dictionary.dir/HashTable/HashTable.c.obj: ../LinkedList/LinkedList.h
 CMakeFiles/Dictionary.dir/HashTable/HashTable.c.obj: ../Utils/Utils.h
 CMakeFiles/Dictionary.dir/HashTable/HashTable.c.obj: ../Word/Word.h
 
+CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../Array/Array.h
+CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../BinarySearchTree/BinarySearchTree.h
+CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../HashTable/HashTable.h
 CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../Heap/Heap.c
 CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../Heap/Heap.h
+CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../LinkedList/LinkedList.h
+CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../Utils/Utils.h
 CMakeFiles/Dictionary.dir/Heap/Heap.c.obj: ../Word/Word.h
 
 CMakeFiles/Dictionary.dir/LinkedList/LinkedList.c.obj: ../Array/Array.h
