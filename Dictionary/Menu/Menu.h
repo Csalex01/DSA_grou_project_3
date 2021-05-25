@@ -16,8 +16,10 @@ void hashTableOperations();
 void arrayOperations_lookup();
 
 void dynamicLinkedListOperations_lookup();
+void dynamicLinkedListOperations_insert();
 
 void binarySearchTree_lookup();
+void binarySearchTree_insert();
 
 void searchInHashTable();
 

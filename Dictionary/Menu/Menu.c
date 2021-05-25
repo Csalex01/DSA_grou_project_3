@@ -55,6 +55,8 @@ void activateMenu() {
 }
 
 /// Submenus
+
+// Array Operations
 void arrayOperations() {
     int choice;
 
@@ -97,6 +99,7 @@ void arrayOperations() {
     }
 }
 
+// Dynamic Linked List Operations
 void dynamicLinkedListOperations() {
     int choice;
 
@@ -106,8 +109,9 @@ void dynamicLinkedListOperations() {
         printf("  -> Dynamic Linked List <- \n\n");
         printf("> 1. Print words              \n");
         printf("> 2. Lookup a word            \n");
-        printf("> 3. Back to main menu        \n");
-        printf("> 4. Exit                     \n");
+        printf("> 3. Insert a word            \n");
+        printf("> 4. Back to main menu        \n");
+        printf("> 5. Exit                     \n");
         printf("<---------------------------->\n");
         printf("> Choice: ");
 
@@ -125,10 +129,14 @@ void dynamicLinkedListOperations() {
                 break;
 
             case 3:
-                activateMenu();
+                dynamicLinkedListOperations_insert();
                 break;
 
             case 4:
+                activateMenu();
+                break;
+
+            case 5:
                 printf("=========> Goodbye! <=========\n");
                 exit(0);
 
@@ -139,6 +147,7 @@ void dynamicLinkedListOperations() {
     }
 }
 
+// Binary Search Tree Operations
 void binarySearchTreeOperations() {
     int choice;
 
@@ -169,7 +178,7 @@ void binarySearchTreeOperations() {
                 break;
 
             case 3:
-                printf("Kell insert....?!");
+                binarySearchTree_insert();
                 break;
 
             case 4:
@@ -190,6 +199,7 @@ void binarySearchTreeOperations() {
     }
 }
 
+// Heap Operations
 void heapOperations() {
     int choice;
 
@@ -232,6 +242,7 @@ void heapOperations() {
     }
 }
 
+// Hash Table Operations
 void hashTableOperations() {
     int choice;
 
@@ -281,6 +292,8 @@ void hashTableOperations() {
 
 /// Helper functions
 
+// Array Operations Helpers
+
 void arrayOperations_lookup() {
     char tmp[30];
 
@@ -289,6 +302,8 @@ void arrayOperations_lookup() {
 
     printf("%s => %s", tmp, lookupArray(tmp));
 }
+
+// Dynamic Linked List Operations Helpers
 
 void dynamicLinkedListOperations_lookup() {
     char tmp[30];
@@ -299,30 +314,48 @@ void dynamicLinkedListOperations_lookup() {
     printf("%s => %s", tmp, lookupLinkedList(tmp));
 }
 
+
+void dynamicLinkedListOperations_insert() {
+    char HUN[30];
+    char ENG[30];
+
+    printf("ENG: ");
+    scanf("%s", ENG);
+
+    printf("HUN: ");
+    scanf("%s", HUN);
+
+    insertIntoLinkedList(&LINKED_LIST, createWord(ENG, HUN), WORD_COUNT);
+    WORD_COUNT++;
+}
+
+// Binary Search Tree Operations Helpers
+
 void binarySearchTree_lookup() {
-    char tmp[30];
-    int tmp2 = 0;
+    char word[30];
 
-    printf("Valassza ki, hogy milyen nyelven akar keresni:\n");
-    printf("\t1. Magyar\n");
-    printf("\t2. Angol\n");
-    scanf("%i", &tmp2);
+    printf("The word you're looking for: ");
+    scanf("%s", word);
 
-    switch (tmp2) {
-        case 1:
-            printf("\nAdd meg a szavat magyarul:");
-            scanf("%s", tmp);
-            printf("%s => %s", tmp, lookupBinarySearchTreeENG(BST, tmp));
-            break;
-
-        case 2:
-            printf("\nAdd meg a szavat angolul:");
-            scanf("%s", tmp);
-            printf("%s => %s", tmp, lookupBinarySearchTreeHUN(BST, tmp));
-            break;
-    }
+    printf("%s => %s", word, lookupBinarySearchTree(word));
 
 }
+
+void binarySearchTree_insert() {
+    char HUN[30];
+    char ENG[30];
+
+    printf("ENG: ");
+    scanf("%s", ENG);
+
+    printf("HUN: ");
+    scanf("%s", HUN);
+
+    insertIntoBinaryTree(&BST, createWord(ENG, HUN));
+    WORD_COUNT++;
+}
+
+// Hash Table Operations Helper
 
 void searchInHashTable() {
     char tmp[30];
