@@ -17,4 +17,9 @@ void arrayOperations_lookup();
 
 void dynamicLinkedListOperations_lookup();
 
+void binarySearchTree_lookup();
+
+void searchInHashTable();
+
+void DeleteFromHashTable();
 #endif //DICTIONARY_MENU_H
